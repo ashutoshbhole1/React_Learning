@@ -1,0 +1,21 @@
+.heading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.btn {
+    min-width: 80px;
+}
+.btn:active{
+    scale: .95;
+}
+input {
+    border: 2px solid #b1b8ff;
+    padding: .9rem 1.5rem;
+    border-radius: 5rem;
+}
+
+input:focus-within {
+    outline-color: #e8e6ff;
+    outline-offset: 4px;
+}
